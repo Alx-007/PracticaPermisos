@@ -1,0 +1,6 @@
+C:\Users\moren\Desktop\PracticaPermisos\Entidades\bin\Debug\Entidades.dll
+C:\Users\moren\Desktop\PracticaPermisos\Entidades\bin\Debug\Entidades.pdb
+C:\Users\moren\Desktop\PracticaPermisos\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\moren\Desktop\PracticaPermisos\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\moren\Desktop\PracticaPermisos\Entidades\obj\Debug\Entidades.dll
+C:\Users\moren\Desktop\PracticaPermisos\Entidades\obj\Debug\Entidades.pdb

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Manejadores;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,41 @@ namespace PracticaPermisos
 {
     public partial class Form1 : Form
     {
+        ManejadorUsuario mu;
         public Form1()
         {
             InitializeComponent();
+            mu = new ManejadorUsuario();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (txtClave.Text.Equals("") || txtUsuario.Text.Equals(""))
+            {
+                MessageBox.Show("No ha ingresado ningun usuario.");
+            }
+
+            string r = mu.validar(txtUsuario, txtClave);
+            if (!r.Equals("Error"))
+            {
+
+                switch (r.ToUpper())
+                {
+                    case "ADMINISTRADOR":
+                        {
+
+                            MenuPrincipal m = new MenuPrincipal();
+                            m.ShowDialog();
+                            txtClave.Clear(); txtUsuario.Clear();
+                        }
+                        break;
+                }
+            }
+            else
+            {
+                lblErrores.Text = "El usuario y constraseña son incorrectos";
+            }
+            this.Show();
         }
     }
 }
