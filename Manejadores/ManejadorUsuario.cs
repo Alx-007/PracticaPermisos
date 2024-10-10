@@ -49,12 +49,12 @@ namespace Manejadores
             return cadena.ToString();
         }
 
-        public string Guardar(TextBox Nombre, TextBox Apellido, TextBox Contraseña, TextBox Tipo)
+        public string Guardar(TextBox Nombre, TextBox ApellidoP, TextBox ApellidoM, TextBox FechaNacimiento, TextBox rfc, TextBox nic, TextBox Tipo, TextBox Clave)
         {
             try
             {
                 //return b.Comando($"Insert into usuarios values(NULL,'{Nombre.Text}','{Apellido.Text}','{Telefono.Text}','{Email.Text}', SHA1('{Contraseña.Text}'),'{Tipo.Text}')");
-                return b.Comando($"INSERT INTO usuarios VALUES(NULL, '{Nombre.Text}', '{Apellido.Text}', SHA1('{Contraseña.Text}'), '{Tipo.Text}')");
+                return b.Comando($"INSERT INTO usuarios VALUES(NULL, '{Nombre.Text}', '{ApellidoP.Text}', '{ApellidoM.Text}', '{FechaNacimiento.Text}', '{rfc.Text}', '{nic.Text}', '{Tipo.Text}', SHA1('{Clave.Text}'))");
             }
             catch (Exception)
             {
@@ -93,9 +93,9 @@ namespace Manejadores
             }
         }
 
-        public void Modificar(int id, TextBox Nombre, TextBox Apellido, TextBox Contraseña, TextBox Tipo)
+        public void Modificar(int id, TextBox Nombre, TextBox ApellidoP, TextBox ApellidoM, TextBox FechaNacimiento, TextBox rfc, TextBox nic, TextBox Tipo, TextBox Clave)
         {
-            b.Comando($"update usuarios set nombre='{Nombre.Text}', apellido='{Apellido.Text}', contraseña='{Contraseña.Text}', tipo='{Tipo.Text}', where idUsuario={id}");
+            b.Comando($"update usuarios set nombre='{Nombre.Text}', apellidoP='{ApellidoP.Text}', apellidoM='{ApellidoM.Text}', FechaNac='{FechaNacimiento.Text}', 'RFC={rfc.Text}', 'nic={nic.Text}', tipo='{Tipo.Text}', clave='{Clave.Text}', where idUsuario={id}");
             MessageBox.Show("Registro Modificado", "!Atencion", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }

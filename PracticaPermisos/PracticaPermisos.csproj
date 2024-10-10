@@ -52,6 +52,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUsuarios.Designer.cs">
+      <DependentUpon>FrmUsuarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="MenuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUsuarios.resx">
+      <DependentUpon>FrmUsuarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
@@ -96,6 +105,10 @@
     <None Include="Resources\login3.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Entidades\Entidades.csproj">
+      <Project>{3ee9a80e-54f9-4a5c-b541-0bfb124ee209}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Manejadores\Manejadores.csproj">
       <Project>{fd7a497e-da0a-49ec-a6a1-2701eb0cc39b}</Project>
       <Name>Manejadores</Name>
@@ -103,6 +116,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\freepik-export-20241010010324haEs.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tools_10476975.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tools_104769751.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_10968248.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

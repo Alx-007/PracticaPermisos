@@ -42,3 +42,6 @@ C:\Users\moren\Desktop\PracticaPermisos\PracticaPermisos\bin\Debug\System.IO.Pip
 C:\Users\moren\Desktop\PracticaPermisos\PracticaPermisos\bin\Debug\K4os.Hash.xxHash.xml
 C:\Users\moren\Desktop\PracticaPermisos\PracticaPermisos\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\moren\Desktop\PracticaPermisos\PracticaPermisos\obj\Debug\PracticaPermisos.MenuPrincipal.resources
+C:\Users\moren\Desktop\PracticaPermisos\PracticaPermisos\bin\Debug\Entidades.dll
+C:\Users\moren\Desktop\PracticaPermisos\PracticaPermisos\bin\Debug\Entidades.pdb
+C:\Users\moren\Desktop\PracticaPermisos\PracticaPermisos\obj\Debug\PracticaPermisos.FrmUsuarios.resources

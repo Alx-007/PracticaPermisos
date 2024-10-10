@@ -16,5 +16,11 @@ namespace PracticaPermisos
         {
             InitializeComponent();
         }
+
+        private void toolStripButton3_Click(object sender, EventArgs e)
+        {
+            FrmUsuarios u = new FrmUsuarios();
+            u.ShowDialog();
+        }
     }
 }

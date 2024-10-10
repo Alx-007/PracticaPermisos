@@ -63,6 +63,16 @@ namespace PracticaPermisos.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap auto {
+            get {
+                object obj = ResourceManager.GetObject("auto", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap freepik_export_20241010010324haEs {
             get {
                 object obj = ResourceManager.GetObject("freepik-export-20241010010324haEs", resourceCulture);
@@ -86,6 +96,36 @@ namespace PracticaPermisos.Properties {
         internal static System.Drawing.Bitmap login3 {
             get {
                 object obj = ResourceManager.GetObject("login3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tools_10476975 {
+            get {
+                object obj = ResourceManager.GetObject("tools_10476975", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tools_104769751 {
+            get {
+                object obj = ResourceManager.GetObject("tools_104769751", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap user_10968248 {
+            get {
+                object obj = ResourceManager.GetObject("user_10968248", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
