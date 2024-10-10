@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\moren\\Desktop\\PracticaPermisos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{46A26D29-15C4-4121-8046-024F4AE9DFEA}|PracticaPermisos\\PracticaPermisos.csproj|c:\\users\\moren\\desktop\\practicapermisos\\practicapermisos\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{46A26D29-15C4-4121-8046-024F4AE9DFEA}|PracticaPermisos\\PracticaPermisos.csproj|solutionrelative:practicapermisos\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FD7A497E-DA0A-49EC-A6A1-2701EB0CC39B}|Manejadores\\Manejadores.csproj|c:\\users\\moren\\desktop\\practicapermisos\\manejadores\\manejadorusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD7A497E-DA0A-49EC-A6A1-2701EB0CC39B}|Manejadores\\Manejadores.csproj|solutionrelative:manejadores\\manejadorusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EE9A80E-54F9-4A5C-B541-0BFB124EE209}|Entidades\\Entidades.csproj|c:\\users\\moren\\desktop\\practicapermisos\\entidades\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EE9A80E-54F9-4A5C-B541-0BFB124EE209}|Entidades\\Entidades.csproj|solutionrelative:entidades\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46A26D29-15C4-4121-8046-024F4AE9DFEA}|PracticaPermisos\\PracticaPermisos.csproj|C:\\Users\\moren\\Desktop\\PracticaPermisos\\practicapermisos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{46A26D29-15C4-4121-8046-024F4AE9DFEA}|PracticaPermisos\\PracticaPermisos.csproj|solutionrelative:practicapermisos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6AF9D81-894C-4DBF-942D-9E971651EF2E}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\moren\\desktop\\practicapermisos\\accesodatos\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A6AF9D81-894C-4DBF-942D-9E971651EF2E}|AccesoDatos\\AccesoDatos.csproj|C:\\Users\\moren\\Desktop\\PracticaPermisos\\accesodatos\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6AF9D81-894C-4DBF-942D-9E971651EF2E}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46A26D29-15C4-4121-8046-024F4AE9DFEA}|PracticaPermisos\\PracticaPermisos.csproj|c:\\users\\moren\\desktop\\practicapermisos\\practicapermisos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{46A26D29-15C4-4121-8046-024F4AE9DFEA}|PracticaPermisos\\PracticaPermisos.csproj|C:\\Users\\moren\\Desktop\\PracticaPermisos\\practicapermisos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46A26D29-15C4-4121-8046-024F4AE9DFEA}|PracticaPermisos\\PracticaPermisos.csproj|solutionrelative:practicapermisos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46A26D29-15C4-4121-8046-024F4AE9DFEA}|PracticaPermisos\\PracticaPermisos.csproj|c:\\users\\moren\\desktop\\practicapermisos\\practicapermisos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{46A26D29-15C4-4121-8046-024F4AE9DFEA}|PracticaPermisos\\PracticaPermisos.csproj|solutionrelative:practicapermisos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3EE9A80E-54F9-4A5C-B541-0BFB124EE209}|Entidades\\Entidades.csproj|C:\\Users\\moren\\Desktop\\PracticaPermisos\\entidades\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE9A80E-54F9-4A5C-B541-0BFB124EE209}|Entidades\\Entidades.csproj|solutionrelative:entidades\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +42,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "MenuPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\moren\\Desktop\\PracticaPermisos\\PracticaPermisos\\MenuPrincipal.cs",
+              "RelativeDocumentMoniker": "PracticaPermisos\\MenuPrincipal.cs",
+              "ToolTip": "C:\\Users\\moren\\Desktop\\PracticaPermisos\\PracticaPermisos\\MenuPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PracticaPermisos\\MenuPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T01:04:30.443Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Base.cs",
               "DocumentMoniker": "C:\\Users\\moren\\Desktop\\PracticaPermisos\\AccesoDatos\\Base.cs",
               "RelativeDocumentMoniker": "AccesoDatos\\Base.cs",
@@ -51,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\moren\\Desktop\\PracticaPermisos\\PracticaPermisos\\Form1.cs",
               "RelativeDocumentMoniker": "PracticaPermisos\\Form1.cs",
@@ -64,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Usuarios.cs",
               "DocumentMoniker": "C:\\Users\\moren\\Desktop\\PracticaPermisos\\Entidades\\Usuarios.cs",
               "RelativeDocumentMoniker": "Entidades\\Usuarios.cs",
@@ -77,20 +93,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ManejadorUsuario.cs",
               "DocumentMoniker": "C:\\Users\\moren\\Desktop\\PracticaPermisos\\Manejadores\\ManejadorUsuario.cs",
               "RelativeDocumentMoniker": "Manejadores\\ManejadorUsuario.cs",
               "ToolTip": "C:\\Users\\moren\\Desktop\\PracticaPermisos\\Manejadores\\ManejadorUsuario.cs",
               "RelativeToolTip": "Manejadores\\ManejadorUsuario.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAAAgAAAAbAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAgAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T13:29:22.596Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\moren\\Desktop\\PracticaPermisos\\PracticaPermisos\\Form1.cs",
               "RelativeDocumentMoniker": "PracticaPermisos\\Form1.cs",

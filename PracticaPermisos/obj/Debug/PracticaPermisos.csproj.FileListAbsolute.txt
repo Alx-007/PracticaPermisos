@@ -41,3 +41,4 @@ C:\Users\moren\Desktop\PracticaPermisos\PracticaPermisos\bin\Debug\K4os.Compress
 C:\Users\moren\Desktop\PracticaPermisos\PracticaPermisos\bin\Debug\System.IO.Pipelines.xml
 C:\Users\moren\Desktop\PracticaPermisos\PracticaPermisos\bin\Debug\K4os.Hash.xxHash.xml
 C:\Users\moren\Desktop\PracticaPermisos\PracticaPermisos\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\moren\Desktop\PracticaPermisos\PracticaPermisos\obj\Debug\PracticaPermisos.MenuPrincipal.resources
