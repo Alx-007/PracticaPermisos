@@ -37,19 +37,19 @@
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(139, 195);
+            this.txtUsuario.Location = new System.Drawing.Point(128, 196);
             this.txtUsuario.Multiline = true;
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(516, 60);
+            this.txtUsuario.Size = new System.Drawing.Size(490, 60);
             this.txtUsuario.TabIndex = 0;
             // 
             // txtClave
             // 
-            this.txtClave.Location = new System.Drawing.Point(139, 282);
+            this.txtClave.Location = new System.Drawing.Point(128, 284);
             this.txtClave.Multiline = true;
             this.txtClave.Name = "txtClave";
             this.txtClave.PasswordChar = '*';
-            this.txtClave.Size = new System.Drawing.Size(516, 59);
+            this.txtClave.Size = new System.Drawing.Size(490, 59);
             this.txtClave.TabIndex = 1;
             // 
             // btnAceptar
@@ -84,7 +84,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::PracticaPermisos.Properties.Resources.login3;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(773, 591);
+            this.ClientSize = new System.Drawing.Size(730, 591);
             this.Controls.Add(this.lblErrores);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.txtClave);

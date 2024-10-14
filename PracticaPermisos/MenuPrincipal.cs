@@ -19,8 +19,31 @@ namespace PracticaPermisos
 
         private void toolStripButton3_Click(object sender, EventArgs e)
         {
-            FrmUsuarios u = new FrmUsuarios();
+            FrmBuscarUsuario u = new FrmBuscarUsuario();
             u.ShowDialog();
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            FrmBuscarRefacciones r = new FrmBuscarRefacciones();
+            r.ShowDialog();
+        }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+            FrmBuscarHerramientas h = new FrmBuscarHerramientas();
+            h.ShowDialog();
+        }
+
+        private void toolStripButton7_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void toolStripButton4_Click(object sender, EventArgs e)
+        {
+            FrmBuscarMarca m = new FrmBuscarMarca();
+            m.ShowDialog();
         }
     }
 }

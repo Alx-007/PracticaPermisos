@@ -53,7 +53,6 @@ namespace Manejadores
         {
             try
             {
-                //return b.Comando($"Insert into usuarios values(NULL,'{Nombre.Text}','{Apellido.Text}','{Telefono.Text}','{Email.Text}', SHA1('{Contraseña.Text}'),'{Tipo.Text}')");
                 return b.Comando($"INSERT INTO usuarios VALUES(NULL, '{Nombre.Text}', '{ApellidoP.Text}', '{ApellidoM.Text}', '{FechaNacimiento.Text}', '{rfc.Text}', '{nic.Text}', '{Tipo.Text}', SHA1('{Clave.Text}'))");
             }
             catch (Exception)
@@ -65,9 +64,9 @@ namespace Manejadores
         public void Mostrar(DataGridView Tabla, string filtro)
         {
             Tabla.Columns.Clear();
-            Tabla.DataSource = b.Consultar($"select * from usuarios where nic like '%{filtro}%'", "usuarios").Tables[0];
-            Tabla.Columns.Insert(5, Boton("Eliminar", Color.Red));
-            Tabla.Columns.Insert(6, Boton("Modificar", Color.Blue));
+            Tabla.DataSource = b.Consultar($"select * from usuarios where nombre like '%{filtro}%'", "usuarios").Tables[0];
+            Tabla.Columns.Insert(9, Boton("Eliminar", Color.Red));
+            Tabla.Columns.Insert(10, Boton("Modificar", Color.Blue));
             Tabla.AutoResizeColumns();
             Tabla.AutoResizeRows();
         }
@@ -95,8 +94,9 @@ namespace Manejadores
 
         public void Modificar(int id, TextBox Nombre, TextBox ApellidoP, TextBox ApellidoM, TextBox FechaNacimiento, TextBox rfc, TextBox nic, TextBox Tipo, TextBox Clave)
         {
-            b.Comando($"update usuarios set nombre='{Nombre.Text}', apellidoP='{ApellidoP.Text}', apellidoM='{ApellidoM.Text}', FechaNac='{FechaNacimiento.Text}', 'RFC={rfc.Text}', 'nic={nic.Text}', tipo='{Tipo.Text}', clave='{Clave.Text}', where idUsuario={id}");
-            MessageBox.Show("Registro Modificado", "!Atencion", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            string fr = $"{FechaNacimiento.Text.Substring(6, 4)}-{FechaNacimiento.Text.Substring(3, 2)}-{FechaNacimiento.Text.Substring(0, 2)}";
+            b.Comando($"update usuarios set nombre = '{Nombre.Text}', apellidoP = '{ApellidoP.Text}', apellidoM = '{ApellidoM.Text}', fechaNacimiento = '{fr}', rfc = '{rfc}', nic = '{nic}', tipo = '{Tipo}', clave = sha1('{Clave}') WHERE idUsuario = {id};");
+            MessageBox.Show("Registro Modificado", "!Atención", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

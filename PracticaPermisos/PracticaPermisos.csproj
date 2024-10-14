@@ -52,6 +52,48 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmBuscarMarca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBuscarMarca.Designer.cs">
+      <DependentUpon>FrmBuscarMarca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBuscarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBuscarUsuario.Designer.cs">
+      <DependentUpon>FrmBuscarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBuscarRefacciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBuscarRefacciones.Designer.cs">
+      <DependentUpon>FrmBuscarRefacciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBuscarHerramientas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBuscarHerramientas.Designer.cs">
+      <DependentUpon>FrmBuscarHerramientas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHerramientas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHerramientas.Designer.cs">
+      <DependentUpon>FrmHerramientas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMarca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMarca.Designer.cs">
+      <DependentUpon>FrmMarca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRefacciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRefacciones.Designer.cs">
+      <DependentUpon>FrmRefacciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmUsuarios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +110,27 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBuscarMarca.resx">
+      <DependentUpon>FrmBuscarMarca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBuscarUsuario.resx">
+      <DependentUpon>FrmBuscarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBuscarRefacciones.resx">
+      <DependentUpon>FrmBuscarRefacciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBuscarHerramientas.resx">
+      <DependentUpon>FrmBuscarHerramientas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHerramientas.resx">
+      <DependentUpon>FrmHerramientas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMarca.resx">
+      <DependentUpon>FrmMarca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRefacciones.resx">
+      <DependentUpon>FrmRefacciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmUsuarios.resx">
       <DependentUpon>FrmUsuarios.cs</DependentUpon>
@@ -128,6 +191,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\user_10968248.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freepik-export-20241010141246OGOh.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\car.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\community.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\graphic-tablet.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

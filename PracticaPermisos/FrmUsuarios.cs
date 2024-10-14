@@ -19,12 +19,20 @@ namespace PracticaPermisos
         {
             InitializeComponent();
             mu = new ManejadorUsuario();
-        }
+            if (FrmBuscarUsuario.id > 0)
+            {
+                txtNombre.Text = FrmBuscarUsuario.Nombre;
+                txtApellidoP.Text = FrmBuscarUsuario.ApellidoP;
+                txtApellidoM.Text = FrmBuscarUsuario.ApellidoM;
+                txtFechaN.Text = FrmBuscarUsuario.FechaNacimiento;
+                txtRFC.Text = FrmBuscarUsuario.RFC;
+                txtUsuario.Text = FrmBuscarUsuario.nic;
+                txtTipo.Text = FrmBuscarUsuario.Tipo;
+                txtClave.Text = FrmBuscarUsuario.clave;
 
-        public static List<Usuarios> usuarios = new List<Usuarios>();
-        int fila = 0, columna = 0;
-        public static int id = 0;
-        public static string Nombre = "", ApellidoP = "", ApellidoM = "", FechaNac = "", RFC = "", Usuario = "", Tipo = "", Clave = "";
+                btnAceptar.Text = "Editar";
+            }
+        }
 
         private void label3_Click(object sender, EventArgs e)
         {
@@ -33,15 +41,15 @@ namespace PracticaPermisos
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-            if (FrmUsuarios.id > 0)
+            if (FrmBuscarUsuario.id > 0)
             {
-                mu.Modificar(FrmUsuarios.id, txtNombre, txtApellidoP, txtApellidoM, txtFechaN, txtRFC, txtUsuario, txtTipo, txtClave);
+                mu.Modificar(FrmBuscarUsuario.id, txtNombre, txtApellidoP, txtApellidoM, txtFechaN, txtRFC, txtUsuario, txtTipo, txtClave);
             }
             else
             {
                 MessageBox.Show(mu.Guardar(txtNombre, txtApellidoP, txtApellidoM, txtFechaN, txtRFC, txtUsuario, txtTipo, txtClave), "!Atencion", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            this.Close();
+            Close();
         }
     }
 }

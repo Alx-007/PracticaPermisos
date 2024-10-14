@@ -45,3 +45,10 @@ C:\Users\moren\Desktop\PracticaPermisos\PracticaPermisos\obj\Debug\PracticaPermi
 C:\Users\moren\Desktop\PracticaPermisos\PracticaPermisos\bin\Debug\Entidades.dll
 C:\Users\moren\Desktop\PracticaPermisos\PracticaPermisos\bin\Debug\Entidades.pdb
 C:\Users\moren\Desktop\PracticaPermisos\PracticaPermisos\obj\Debug\PracticaPermisos.FrmUsuarios.resources
+C:\Users\moren\Desktop\PracticaPermisos\PracticaPermisos\obj\Debug\PracticaPermisos.FrmBuscarUsuario.resources
+C:\Users\moren\Desktop\PracticaPermisos\PracticaPermisos\obj\Debug\PracticaPermisos.FrmBuscarRefacciones.resources
+C:\Users\moren\Desktop\PracticaPermisos\PracticaPermisos\obj\Debug\PracticaPermisos.FrmRefacciones.resources
+C:\Users\moren\Desktop\PracticaPermisos\PracticaPermisos\obj\Debug\PracticaPermisos.FrmBuscarHerramientas.resources
+C:\Users\moren\Desktop\PracticaPermisos\PracticaPermisos\obj\Debug\PracticaPermisos.FrmHerramientas.resources
+C:\Users\moren\Desktop\PracticaPermisos\PracticaPermisos\obj\Debug\PracticaPermisos.FrmBuscarMarca.resources
+C:\Users\moren\Desktop\PracticaPermisos\PracticaPermisos\obj\Debug\PracticaPermisos.FrmMarca.resources

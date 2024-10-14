@@ -194,9 +194,9 @@
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(498, 336);
+            this.btnAceptar.Location = new System.Drawing.Point(504, 310);
             this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(162, 38);
+            this.btnAceptar.Size = new System.Drawing.Size(162, 36);
             this.btnAceptar.TabIndex = 16;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
@@ -208,7 +208,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::PracticaPermisos.Properties.Resources.freepik_export_20241010010324haEs;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(920, 514);
+            this.ClientSize = new System.Drawing.Size(911, 523);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.txtClave);
             this.Controls.Add(this.label8);
