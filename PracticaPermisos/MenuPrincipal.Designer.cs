@@ -117,6 +117,7 @@
             this.toolStripButton4.AutoSize = false;
             this.toolStripButton4.BackgroundImage = global::PracticaPermisos.Properties.Resources.graphic_tablet;
             this.toolStripButton4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton4.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton4.Name = "toolStripButton4";
             this.toolStripButton4.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
