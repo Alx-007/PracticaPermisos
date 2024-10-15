@@ -13,11 +13,13 @@ namespace PracticaPermisos
 {
     public partial class Form1 : Form
     {
+        ManejadorRefacciones mr;
         ManejadorUsuario mu;
         public Form1()
         {
             InitializeComponent();
             mu = new ManejadorUsuario();
+            mr = new ManejadorRefacciones();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -36,6 +38,13 @@ namespace PracticaPermisos
                     case "ADMINISTRADOR":
                         {
 
+                            MenuPrincipal m = new MenuPrincipal();
+                            m.ShowDialog();
+                            txtClave.Clear(); txtUsuario.Clear();
+                        }
+                        break;
+                    case "EMPLEADO":
+                        {
                             MenuPrincipal m = new MenuPrincipal();
                             m.ShowDialog();
                             txtClave.Clear(); txtUsuario.Clear();

@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\moren\\Desktop\\PracticaPermisos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{46A26D29-15C4-4121-8046-024F4AE9DFEA}|PracticaPermisos\\PracticaPermisos.csproj|c:\\users\\moren\\desktop\\practicapermisos\\practicapermisos\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{46A26D29-15C4-4121-8046-024F4AE9DFEA}|PracticaPermisos\\PracticaPermisos.csproj|solutionrelative:practicapermisos\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FD7A497E-DA0A-49EC-A6A1-2701EB0CC39B}|Manejadores\\Manejadores.csproj|c:\\users\\moren\\desktop\\practicapermisos\\manejadores\\manejadorusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD7A497E-DA0A-49EC-A6A1-2701EB0CC39B}|Manejadores\\Manejadores.csproj|solutionrelative:manejadores\\manejadorusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7A497E-DA0A-49EC-A6A1-2701EB0CC39B}|Manejadores\\Manejadores.csproj|c:\\users\\moren\\desktop\\practicapermisos\\manejadores\\manejadorrefacciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD7A497E-DA0A-49EC-A6A1-2701EB0CC39B}|Manejadores\\Manejadores.csproj|solutionrelative:manejadores\\manejadorrefacciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +27,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MenuPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\moren\\Desktop\\PracticaPermisos\\PracticaPermisos\\MenuPrincipal.cs",
-              "RelativeDocumentMoniker": "PracticaPermisos\\MenuPrincipal.cs",
-              "ToolTip": "C:\\Users\\moren\\Desktop\\PracticaPermisos\\PracticaPermisos\\MenuPrincipal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PracticaPermisos\\MenuPrincipal.cs [Dise\u00F1o]",
+              "Title": "ManejadorUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\moren\\Desktop\\PracticaPermisos\\Manejadores\\ManejadorUsuario.cs",
+              "RelativeDocumentMoniker": "Manejadores\\ManejadorUsuario.cs",
+              "ToolTip": "C:\\Users\\moren\\Desktop\\PracticaPermisos\\Manejadores\\ManejadorUsuario.cs",
+              "RelativeToolTip": "Manejadores\\ManejadorUsuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T01:36:18.433Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-15T03:03:50.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManejadorRefacciones.cs",
+              "DocumentMoniker": "C:\\Users\\moren\\Desktop\\PracticaPermisos\\Manejadores\\ManejadorRefacciones.cs",
+              "RelativeDocumentMoniker": "Manejadores\\ManejadorRefacciones.cs",
+              "ToolTip": "C:\\Users\\moren\\Desktop\\PracticaPermisos\\Manejadores\\ManejadorRefacciones.cs",
+              "RelativeToolTip": "Manejadores\\ManejadorRefacciones.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T03:01:12.782Z",
+              "EditorCaption": ""
             }
           ]
         }

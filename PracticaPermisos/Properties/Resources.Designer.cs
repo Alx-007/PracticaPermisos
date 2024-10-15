@@ -93,6 +93,16 @@ namespace PracticaPermisos.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap community1 {
+            get {
+                object obj = ResourceManager.GetObject("community1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap freepik_export_20241010010324haEs {
             get {
                 object obj = ResourceManager.GetObject("freepik-export-20241010010324haEs", resourceCulture);
@@ -116,6 +126,16 @@ namespace PracticaPermisos.Properties {
         internal static System.Drawing.Bitmap graphic_tablet {
             get {
                 object obj = ResourceManager.GetObject("graphic-tablet", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap graphic_tablet1 {
+            get {
+                object obj = ResourceManager.GetObject("graphic-tablet1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
